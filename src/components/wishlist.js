@@ -6,11 +6,7 @@ class Wishlist extends Component {
     constructor() {
         super()
         this.state = {
-            wishOne: '',
-            wishTwo: 'ball',
-            wishThree: 'bike',
-            wishFour: 'game',
-            name: 'Brodie'
+            wishOne: ''
         }
 
         this.handleInputChange = this.handleInputChange.bind(this);
@@ -27,8 +23,7 @@ class Wishlist extends Component {
                     Input(this.handleInputChange)
                 }
                 {
-                    // Content(this.state.wishOne)
-                    console.log(this.state.wishOne)
+                    Content(this.state.wishOne)
                 }         
             </div>
         )
