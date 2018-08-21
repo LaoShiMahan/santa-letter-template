@@ -26,3 +26,9 @@ body {
     display: grid;
     justify-items: center;
 }
+
+.wishlist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

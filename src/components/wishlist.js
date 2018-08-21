@@ -18,7 +18,7 @@ class Wishlist extends Component {
 
     render() {
         return (   
-            <div>
+            <div className="wishlist">
                 {
                     Input(this.handleInputChange)
                 }
