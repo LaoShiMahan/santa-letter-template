@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
+import Header from './header';
+import Input from './input';
+import Content from './content';
+import Wishlist from './wishlist';
 
 export default class App extends Component {
   render() {
     return (
       <div className='app'>
-        <h1>DevCamp React Starter</h1>
-        <h2>React Bootstrap</h2>
+        <Header />
+        <Wishlist />
+        <Content />
       </div>
     );
   }
